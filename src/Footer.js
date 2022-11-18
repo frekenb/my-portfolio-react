@@ -10,7 +10,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="fixed-bottom sticky-sm-left">
+    <footer className=" sticky-sm-left">
       <ul className="d-flex justify-content-center mb-5">
         <li>
           <a

@@ -53,6 +53,7 @@ function App() {
             </div>
           </div>
         </nav>
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<About />} />
@@ -60,6 +61,7 @@ function App() {
           <Route path="/Projects" element={<Projects />} />
         </Routes>
       </Router>
+
       <Footer />
     </div>
   );
