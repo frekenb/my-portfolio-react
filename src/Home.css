@@ -9,6 +9,8 @@
   --blue: hsl(217, 100%, 61%);
   --border-radius: 30px;
   --box-sizing: border-box;
+  --button-padding: 30px 40px;
+  --button-radius: 20px;
 }
 
 .Home-page {
@@ -52,12 +54,12 @@
 }
 
 .Home-page button {
-  padding: 30px 40px;
+  padding: var(--button-padding);
   margin: 0 auto;
   margin-top: 2rem;
   box-sizing: var(--box-sizing);
   display: block;
-  border-radius: 20px;
+  border-radius: var(--button-radius);
   background-color: var(--white);
   border: none;
   opacity: 0.9;

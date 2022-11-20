@@ -17,6 +17,7 @@ const Footer = () => {
             href="https://github.com/frekenb"
             target="_blank"
             className="p-3 rounded-circle m-2"
+            rel="noreferrer"
           >
             <FontAwesomeIcon icon={faGithub} />
           </a>
@@ -26,6 +27,7 @@ const Footer = () => {
             href="https://instagram.com/frekenb_1.0"
             target="_blank"
             className="p-3 rounded-circle m-2"
+            rel="noreferrer"
           >
             {" "}
             <FontAwesomeIcon icon={faInstagram} />
@@ -36,6 +38,7 @@ const Footer = () => {
             href="https://twitter.com/frekenb83"
             target="_blank"
             className="p-3 rounded-circle m-2"
+            rel="noreferrer"
           >
             <FontAwesomeIcon icon={faTwitter} />
           </a>
@@ -45,6 +48,7 @@ const Footer = () => {
             href="https://www.linkedin.com/in/maryna-dmytryk-b9b956122/"
             target="_blank"
             className="p-3 rounded-circle m-2"
+            rel="noreferrer"
           >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>

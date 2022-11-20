@@ -14,10 +14,9 @@
 }
 
 .App {
-  background-color: var(--background-color);
   font-family: "Source Code Pro", monospace;
   background-size: 100%;
-  height: 1170px;
+  height: 900px;
 }
 
 .App .navbar {

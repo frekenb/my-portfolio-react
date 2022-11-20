@@ -1,0 +1,96 @@
+:root {
+  --pink-color: rgb(255, 99, 186);
+  --background-color: hsla(327, 100%, 69%, 0.11);
+  --light-pink: hsla(327, 98%, 76%, 0.782);
+  --white: rgb(249, 233, 242);
+  --yellow: #ffbe0b;
+  --orange: #fb5607;
+  --violet: #8338ec;
+  --blue: hsl(217, 100%, 61%);
+  --border-radius: 30px;
+  --box-sizing: border-box;
+  --button-padding: 30px 40px;
+  --button-radius: 20px;
+}
+
+body {
+  background-color: var(--background-color) !important;
+}
+
+.row {
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.card {
+  margin: 1rem;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--blue);
+  text-align: center;
+  transition: 4s;
+}
+.card:hover {
+  background-color: var(--pink-color);
+  border-radius: 50%;
+  opacity: 0.9;
+}
+
+.SecondProject figure img {
+  height: 30rem;
+}
+
+figure {
+  max-width: 25rem;
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  background-color: var(--white);
+}
+figure img {
+  border-radius: var(--border-radius);
+  max-width: 15rem;
+  transition: 2s;
+}
+figure img:hover {
+  transform: scale(110%);
+  border-radius: 4px;
+}
+
+.SecondProject figure img {
+  width: 35rem;
+  height: 18rem;
+}
+
+.card .card-body button {
+  background-color: var(--violet);
+  border-radius: var(--border-radius);
+  box-sizing: var(--box-sizing);
+  padding: 15px 45px;
+  border: none;
+  transition: 2s;
+}
+
+.card .card-body button:hover {
+  background-color: var(--blue);
+  color: var(--orange);
+  border-radius: 4px;
+}
+
+.card .card-body button a {
+  font-size: 20px;
+  color: var(--white);
+  font-weight: 900;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.card-body .card-title {
+  font-weight: 900;
+  font-size: 20px;
+  background-color: var(--violet);
+  color: var(--white);
+  padding: 10px;
+  opacity: 0.7;
+  border-radius: var(--border-radius);
+}
