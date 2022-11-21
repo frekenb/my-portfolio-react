@@ -10,10 +10,10 @@ export default function Projects() {
     <div className="Projects">
       <div className="row">
         <div className="col">
-          <FirstProject />
           <SecondProject />
           <ThirdProject />
           <FourthProject />
+          <FirstProject />
         </div>
       </div>
     </div>
