@@ -17,6 +17,10 @@ body {
   background-color: var(--background-color) !important;
 }
 
+.Projects {
+  margin-top: 155px;
+  margin-bottom: 1rem;
+}
 .row {
   justify-content: center;
   margin: 0 auto;
@@ -37,19 +41,21 @@ body {
   opacity: 0.9;
 }
 
-.SecondProject figure img {
-  height: 30rem;
-}
-
 figure {
-  max-width: 25rem;
+  display: flex;
+  justify-content: center;
+  max-width: 33rem;
   border-radius: var(--border-radius);
   padding: 1rem;
   background-color: var(--white);
 }
+
+.horizontal-img {
+  max-width: 20rem;
+  align-self: center;
+}
 figure img {
   border-radius: var(--border-radius);
-  max-width: 15rem;
   transition: 2s;
 }
 figure img:hover {

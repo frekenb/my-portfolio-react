@@ -15,7 +15,8 @@
 
 .Home-page {
   display: block;
-  margin: 20px;
+  padding: 20px;
+  background-color: var(--violet);
 }
 
 .Home-page section {

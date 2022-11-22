@@ -1,3 +1,44 @@
+:root {
+  --pink-color: rgb(255, 99, 186);
+  --background-color: hsla(327, 100%, 69%, 0.11);
+  --light-pink: hsla(327, 98%, 76%, 0.782);
+  --white: rgb(249, 233, 242);
+  --yellow: #ffbe0b;
+  --orange: #fb5607;
+  --violet: #8338ec;
+  --blue: hsl(217, 100%, 61%);
+  --border-radius: 30px;
+  --box-sizing: border-box;
+}
+
+.Footer {
+  background-color: transparent;
+  display: flex;
+  padding-top: 15px;
+  padding-bottom: 1px;
+  line-height: 1em;
+  justify-content: center;
+  align-items: center;
+}
+
 ul {
   list-style: none;
+  display: flex;
+  margin-top: 10px;
+}
+
+.Footer .fa-icons {
+  color: var(--white);
+  background-color: var(--violet);
+  opacity: 0.8;
+
+  padding: 6px;
+  border-radius: 50%;
+  transition: 1s;
+}
+
+.Footer .fa-icons:hover {
+  background-color: transparent;
+  color: var(--pink-color);
+  border: 1px solid var(--pink-color);
 }

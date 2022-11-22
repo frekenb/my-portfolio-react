@@ -11,8 +11,9 @@ export default function Projects() {
       <div className="row">
         <div className="col">
           <SecondProject />
-          <ThirdProject />
           <FourthProject />
+
+          <ThirdProject />
           <FirstProject />
         </div>
       </div>

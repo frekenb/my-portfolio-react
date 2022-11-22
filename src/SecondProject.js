@@ -24,12 +24,13 @@ const SecondProject = () => {
             </button>
           </div>
         </div>
-        <div className="col-4 shadow-regular">
+        <div className="col-5 shadow-regular">
           <figure>
             <img
               src={ImgWeatherAppJs}
               alt="weather application"
               className="img-fluid shadow-sm"
+              width={35}
             />
           </figure>
         </div>

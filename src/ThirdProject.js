@@ -25,11 +25,13 @@ export const ThirdProject = () => {
         </div>
         <div className="col-4 shadow-regular">
           <figure>
-            <img
-              src={ImgDictionary}
-              alt="dictionary web app"
-              className="img-fluid shadow-sm"
-            />
+            <div className="horizontal-img">
+              <img
+                src={ImgDictionary}
+                alt="dictionary web app"
+                className="img-fluid shadow-sm"
+              />
+            </div>
           </figure>
         </div>
       </div>

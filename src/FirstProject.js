@@ -27,11 +27,13 @@ export const FirstProject = () => {
           </div>
           <div className="col-4 shadow-regular">
             <figure>
-              <img
-                src={ImgCalculator}
-                alt="calculator"
-                className="img-fluid shadow-sm"
-              />
+              <div className="horizontal-img">
+                <img
+                  src={ImgCalculator}
+                  alt="calculator"
+                  className="img-fluid shadow-sm"
+                />
+              </div>
             </figure>
           </div>
         </div>

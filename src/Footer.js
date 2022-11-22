@@ -10,8 +10,8 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className=" sticky-sm-left">
-      <ul className="d-flex justify-content-center mb-5">
+    <footer className="Footer">
+      <ul className="personal-information">
         <li>
           <a
             href="https://github.com/frekenb"
@@ -19,7 +19,11 @@ const Footer = () => {
             className="p-3 rounded-circle m-2"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faGithub} />
+            <FontAwesomeIcon
+              icon={faGithub}
+              style={{ fontSize: "20" }}
+              className="fa-icons"
+            />
           </a>
         </li>
         <li>
@@ -30,7 +34,11 @@ const Footer = () => {
             rel="noreferrer"
           >
             {" "}
-            <FontAwesomeIcon icon={faInstagram} />
+            <FontAwesomeIcon
+              icon={faInstagram}
+              style={{ fontSize: "20" }}
+              className="fa-icons"
+            />
           </a>
         </li>
         <li>
@@ -40,7 +48,11 @@ const Footer = () => {
             className="p-3 rounded-circle m-2"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faTwitter} />
+            <FontAwesomeIcon
+              icon={faTwitter}
+              style={{ fontSize: "20" }}
+              className="fa-icons"
+            />
           </a>
         </li>
         <li>
@@ -50,7 +62,11 @@ const Footer = () => {
             className="p-3 rounded-circle m-2"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedin} />
+            <FontAwesomeIcon
+              icon={faLinkedin}
+              style={{ fontSize: "20" }}
+              className="fa-icons"
+            />
           </a>
         </li>
       </ul>
