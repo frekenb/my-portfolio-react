@@ -1,0 +1,91 @@
+:root {
+  --pink-color: rgb(255, 99, 186);
+  --background-color: hsla(327, 100%, 69%, 0.11);
+  --light-pink: hsla(327, 98%, 76%, 0.782);
+  --white: rgb(249, 233, 242);
+  --yellow: #ffbe0b;
+  --orange: #fb5607;
+  --violet: #8338ec;
+  --blue: hsl(217, 100%, 61%);
+  --border-radius: 30px;
+  --box-sizing: border-box;
+}
+
+.Contact {
+  height: 600px;
+}
+
+.Contact .container {
+  margin-top: 50px;
+}
+
+.Contact .container .row {
+  justify-content: space-around;
+}
+
+.Contact .container .row .col {
+  margin: 1rem;
+}
+
+.Contact .container .row .col ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+
+.Contact .container .row .col ul li {
+  margin-top: 1rem;
+}
+
+.Contact figure {
+  background-color: var(--light-pink);
+  border-radius: 50%;
+  padding: 15px;
+  transition: 2s;
+}
+
+.Contact figure:hover {
+  background-color: var(--pink-color);
+}
+
+.Contact img {
+  max-width: 550px;
+  padding: 10px;
+}
+
+.Contact .personal-information {
+  padding-top: 2rem;
+}
+
+.Contact .personal-information h3 {
+  font-weight: 700;
+  color: var(--violet);
+  opacity: 0.8;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  text-align: center;
+  padding: 4px 0 4px 0;
+}
+
+.Contact .personal-information a {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--violet);
+  opacity: 0.8;
+  font-weight: 200;
+}
+
+.Contact .personal-information a:hover {
+  opacity: 1;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: 4px;
+}
+
+.Contact .personal-information .bs-icons {
+  font-size: 30px;
+  padding: 3px;
+  border-radius: 50%;
+  color: var(--violet);
+  opacity: 0.7;
+}

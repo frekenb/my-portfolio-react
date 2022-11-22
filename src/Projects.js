@@ -8,6 +8,7 @@ import { FourthProject } from "./FourthProject";
 export default function Projects() {
   return (
     <div className="Projects">
+      <h1>Recent work</h1>
       <div className="row">
         <div className="col">
           <SecondProject />

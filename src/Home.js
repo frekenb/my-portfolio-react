@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 import "./Home.css";
 import { ReactComponent as PortfolioImage } from "./img/undraw_portfolio_website_re_jsdd.svg";
 import Projects from "./Projects";
@@ -8,7 +7,7 @@ export default class Home extends Component {
   render() {
     return (
       <div className="Home-page">
-        <div className="main-content row row-cols-2">
+        <div className="main-content row">
           <section className="col-lg-6 col-md-10 col-sm-10">
             <p className="greetings">Hello, my name is</p>
             <h1>
@@ -22,7 +21,7 @@ export default class Home extends Component {
             </h2>
             <button type="button" className="btn btn-primary">
               <a href="https://www.linkedin.com/in/maryna-dmytryk-b9b956122/">
-                Get in touch
+                Contact me
               </a>
             </button>
           </section>

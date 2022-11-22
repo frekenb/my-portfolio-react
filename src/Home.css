@@ -19,6 +19,10 @@
   background-color: var(--violet);
 }
 
+.Home-page .main-content {
+  margin-bottom: 155px;
+}
+
 .Home-page section {
   box-sizing: var(--box-sizing);
   margin: 30px 10px;

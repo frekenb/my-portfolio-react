@@ -10,7 +10,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="Footer">
+    <footer className="Footer sticky-bottom d-none d-lg-flex">
       <ul className="personal-information">
         <li>
           <a

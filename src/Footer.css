@@ -12,11 +12,11 @@
 }
 
 .Footer {
-  background-color: transparent;
+  background-color: var(--white);
   display: flex;
   padding-top: 15px;
-  padding-bottom: 1px;
-  line-height: 1em;
+  padding-bottom: 10px;
+  line-height: 20px;
   justify-content: center;
   align-items: center;
 }
@@ -24,14 +24,20 @@
 ul {
   list-style: none;
   display: flex;
+  margin-bottom: 0;
   margin-top: 10px;
+  height: 20px;
+}
+
+.Footer a {
+  box-sizing: border-box;
 }
 
 .Footer .fa-icons {
   color: var(--white);
   background-color: var(--violet);
   opacity: 0.8;
-
+  box-sizing: border-box;
   padding: 6px;
   border-radius: 50%;
   transition: 1s;
@@ -40,5 +46,4 @@ ul {
 .Footer .fa-icons:hover {
   background-color: transparent;
   color: var(--pink-color);
-  border: 1px solid var(--pink-color);
 }
