@@ -19,7 +19,7 @@ export const Contact = () => {
         <div className="row">
           <div className="col col-lg-4 col-md-6 col-ms-6">
             <figure>
-              <img src={SvgContactUs} className="img-fluid" />
+              <img src={SvgContactUs} className="img-fluid" alt="" />
             </figure>
           </div>
           <div className="col col-lg-4 col-md-8 col-ms-8 personal-information">
