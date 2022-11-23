@@ -1,0 +1,111 @@
+:root {
+  --pink-color: rgb(255, 99, 186);
+  --background-color: hsla(327, 100%, 69%, 0.11);
+  --light-pink: hsla(327, 98%, 76%, 0.782);
+  --white: rgb(249, 233, 242);
+  --yellow: #ffbe0b;
+  --orange: #fb5607;
+  --violet: #8338ec;
+  --blue: hsl(217, 100%, 61%);
+  --border-radius: 30px;
+  --box-sizing: border-box;
+}
+
+.About {
+  height: 800px;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.About h3 {
+  font-weight: 700;
+  color: var(--blue);
+  opacity: 0.8;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  text-align: center;
+  padding: 4px 0 4px 0;
+  margin-bottom: 1rem;
+}
+
+.About section.personal-information {
+}
+
+.About section.personal-information p {
+  opacity: 0.8;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  transition: 2s;
+}
+
+.About section.personal-information p.text-end {
+  position: relative;
+  right: -120px;
+}
+
+.About section.personal-information p:hover {
+  color: var(--blue);
+  opacity: 1;
+}
+
+.About img.personal-information {
+  max-width: 14rem;
+  border-radius: 10px;
+  position: relative;
+  top: 34px;
+  right: -20px;
+  z-index: 2;
+}
+
+.About img.img-svg {
+  position: absolute;
+  z-index: 1;
+  background-color: var(--blue);
+  opacity: 0.9;
+  border-radius: 50%;
+  transition: 4s;
+}
+
+.About img.img-svg:hover {
+  background-color: var(--violet);
+  border-radius: 55%;
+  transform: rotateX(60deg);
+}
+
+.About .technologies {
+  margin-top: 4rem;
+}
+
+.About .technologies ul {
+  margin-top: 20px;
+  height: 3rem;
+}
+
+.About .technologies ul li {
+  margin: 5px;
+  box-sizing: border-box;
+  height: 2rem;
+  align-items: baseline;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.About .technologies ul li figure {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+  padding: 15px;
+  border-radius: 50%;
+}
+.About .technologies ul li figcaption {
+  font-size: 12px;
+  color: black;
+  opacity: 0.6;
+}
+
+.About .technologies img {
+  height: 28px;
+  width: 28px;
+}

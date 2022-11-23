@@ -23,6 +23,10 @@
   letter-spacing: 2px;
 }
 
+.App .navbar .button-home {
+  font-size: 25px;
+}
+
 .App .navbar .container-fluid {
   margin-left: 50px;
 }

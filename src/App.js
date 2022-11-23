@@ -4,6 +4,7 @@ import { About } from "./About";
 import { Contact } from "./Contact";
 import Projects from "./Projects";
 import Footer from "./Footer";
+import { CiHome } from "react-icons/ci";
 
 import { Link, BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -31,7 +32,7 @@ function App() {
               <ul className="navbar-nav">
                 <li className="nav-item">
                   <Link to="/" className="nav-link">
-                    Home
+                    <CiHome className="button-home" />
                   </Link>
                 </li>
                 <li className="nav-item">
