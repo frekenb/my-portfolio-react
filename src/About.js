@@ -54,7 +54,7 @@ export const About = () => {
             <figure>
               <img
                 src={ImgProfileInf}
-                alt="image profile svg"
+                alt="profile illustration"
                 className="img-svg"
               />
               <img
