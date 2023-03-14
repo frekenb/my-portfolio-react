@@ -1,7 +1,7 @@
 import React from "react";
 import ImgProfileInf from "../img/undraw_profile_details_re_ch9r.svg";
 import MyPhoto from "../img/1.jpg";
-import "../styles/Contact.css";
+import "../styles/About.css";
 import Html from "../img/logo/html.svg";
 import Css from "../img/logo/css3.svg";
 import Js from "../img/logo/javascript.svg";
