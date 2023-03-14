@@ -25,7 +25,7 @@ export const About = () => {
               <h3>About me</h3>
 
               <p className="text-start">
-                Hi there! I'm Maryna from Kiev, an aspiring Junior Front-end
+                Hi there! I'm Maryna from Kyiv, an aspiring Junior Front-end
                 developer temporary based in Georgia .
               </p>
               <p className="text-end">
