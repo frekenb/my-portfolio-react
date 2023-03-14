@@ -1,9 +1,10 @@
-import "./App.css";
-import Home from "./Home";
-import { About } from "./About";
-import { Contact } from "./Contact";
-import Projects from "./Projects";
-import Footer from "./Footer";
+import "./styles/App.css";
+import Home from "./tree-pages/Home";
+import { About } from "./tree-pages/About";
+import { Contact } from "./tree-pages/Contact";
+import Footer from "./tree-pages/Footer";
+import Projects from "./project.page/Projects";
+
 import { CiHome } from "react-icons/ci";
 
 import { Link, BrowserRouter as Router, Route, Routes } from "react-router-dom";

@@ -1,5 +1,5 @@
 import React from "react";
-import ImgReactApp from "./img/weatherReactApp.gif";
+import ImgReactApp from "../../img/weatherReactApp.gif";
 
 export const FourthProject = () => {
   const link = "https://weather-webapp-react-frekenb.netlify.app/";
@@ -7,11 +7,16 @@ export const FourthProject = () => {
   return (
     <div className="FourthProject Weather-Webapp-React">
       <div className="row">
-        <div className="col-4 card shadow-regular">
+        <div className="col-5 card shadow-regular">
           <div className="card-body describing-of-project">
             <h4 className="card-title shadow-sm">Weather React Application</h4>
-            <p className="card-text">Describing of particular project</p>
-            <p className="card-text">Tell about skills which I used</p>
+            <p className="card-text">
+              Developed a weather application using React, HTML5, and CSS, with
+              real API integration for accurate weather data. This project
+              allowed me to improve my skills in front-end web development,
+              React, and API integration.
+            </p>
+
             <button>
               <a
                 href={link}

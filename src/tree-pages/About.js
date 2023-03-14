@@ -1,18 +1,18 @@
 import React from "react";
-import ImgProfileInf from "./img/undraw_profile_details_re_ch9r.svg";
-import MyPhoto from "./img/1.jpg";
-import "./About.css";
-import Html from "./img/logo/html.svg";
-import Css from "./img/logo/css3.svg";
-import Js from "./img/logo/javascript.svg";
-import Api from "./img/logo/api.svg";
-import Bootstrap from "./img/logo/bootstrap.svg";
-import Github from "./img/logo/github.svg";
-import Netlify from "./img/logo/netlify.svg";
-import ReactImg from "./img/logo/react.svg";
-import Seo from "./img/logo/seo.png";
-import Responsive from "./img/logo/responsive.svg";
-import Vs from "./img/logo/vs.svg";
+import ImgProfileInf from "../img/undraw_profile_details_re_ch9r.svg";
+import MyPhoto from "../img/1.jpg";
+import "../styles/Contact.css";
+import Html from "../img/logo/html.svg";
+import Css from "../img/logo/css3.svg";
+import Js from "../img/logo/javascript.svg";
+import Api from "../img/logo/api.svg";
+import Bootstrap from "../img/logo/bootstrap.svg";
+import Github from "../img/logo/github.svg";
+import Netlify from "../img/logo/netlify.svg";
+import ReactImg from "../img/logo/react.svg";
+import Seo from "../img/logo/seo.png";
+import Responsive from "../img/logo/responsive.svg";
+import Vs from "../img/logo/vs.svg";
 
 export const About = () => {
   return (

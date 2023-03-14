@@ -6,8 +6,8 @@ import {
   BsGithub,
 } from "react-icons/bs";
 import mailgo from "mailgo";
-import SvgContactUs from "./img/undraw_contact_us_re_4qqt.svg";
-import "./Contact.css";
+import SvgContactUs from "../img/undraw_contact_us_re_4qqt.svg";
+import "../styles/Contact.css";
 
 export const Contact = () => {
   mailgo();

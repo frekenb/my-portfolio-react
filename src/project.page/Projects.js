@@ -1,9 +1,9 @@
 import React from "react";
-import SecondProject from "./SecondProject";
+import SecondProject from "./projects.pages/SecondProject";
 import "./projects.css";
-import { FirstProject } from "./FirstProject";
-import { ThirdProject } from "./ThirdProject";
-import { FourthProject } from "./FourthProject";
+import { FirstProject } from "./projects.pages/FirstProject";
+import { ThirdProject } from "./projects.pages/ThirdProject";
+import { FourthProject } from "./projects.pages/FourthProject";
 
 export default function Projects() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import ImgWeatherAppJs from "./img/weatherAppVanillaJS.png";
+import ImgWeatherAppJs from "../../img/weatherAppVanillaJS.png";
 
 const SecondProject = () => {
   const link = "https://weather-web-app-vanillajs.netlify.app/";
@@ -7,11 +7,14 @@ const SecondProject = () => {
   return (
     <div className="SecondProject WeatherAppVanilla">
       <div className="row">
-        <div className="col-4 card shadow-regular">
+        <div className="col-5 card shadow-regular">
           <div className="card-body describing-of-project">
             <h4 className="card-title shadow-sm">Weather App Vanilla JS</h4>
-            <p className="card-text">Describing of particular project</p>
-            <p className="card-text">Tell about skills which I used</p>
+            <p className="card-text">
+              Developed a weather app using HTML5, CSS, and vanilla JavaScript
+              to integrate an API for real-time weather data.
+            </p>
+
             <button>
               <a
                 href={link}

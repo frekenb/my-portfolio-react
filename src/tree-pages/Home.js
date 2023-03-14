@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import "./Home.css";
-import { ReactComponent as PortfolioImage } from "./img/undraw_portfolio_website_re_jsdd.svg";
-import Projects from "./Projects";
+import "../styles/Home.css";
+import { ReactComponent as PortfolioImage } from "../img/undraw_portfolio_website_re_jsdd.svg";
+import Projects from "../project.page/Projects";
 
 export default class Home extends Component {
   render() {

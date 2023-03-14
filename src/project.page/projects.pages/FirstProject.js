@@ -1,5 +1,5 @@
 import React from "react";
-import ImgCalculator from "./img/calculator.png";
+import ImgCalculator from "../../img/calculator.png";
 
 export const FirstProject = () => {
   const link = "https://react-calculator-open-source.netlify.app/";
@@ -7,11 +7,14 @@ export const FirstProject = () => {
   return (
     <div className="FirstProject">
       <div className="row">
-        <div className="col-4 shadow-regular card">
+        <div className="col-5 shadow-regular card">
           <div className=" describing-of-project card-body">
             <h4 className="card-title shadow-sm">Calculator</h4>
-            <p className="card-text">Describing of particular project</p>
-            <p className="card-text">Tell about skills which I used</p>
+            <p className="card-text">
+              Created a responsive calculator app using HTML, CSS, and
+              JavaScript, improving my skills in front-end web development,
+              JavaScript logic, and DOM manipulation.
+            </p>
             <button className="button shadow-regular">
               <a
                 href={link}
@@ -24,7 +27,7 @@ export const FirstProject = () => {
             </button>
           </div>
         </div>
-        <div className="col-4 shadow-regular">
+        <div className="col-5 shadow-regular">
           <figure>
             <div className="horizontal-img">
               <img
